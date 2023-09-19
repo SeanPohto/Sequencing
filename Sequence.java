@@ -44,5 +44,6 @@ public class Sequence
             a++;
             b++;
         }
+
     }
 }
