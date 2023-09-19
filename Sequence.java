@@ -27,5 +27,21 @@ public class Sequence
         } else {
             System.out.println("Failure");
         }
+        int i = 0;
+        while (i < 15) {
+            System.out.println("i is " + i + " but is less than 15");
+            i++;
+        }
+        int k = 10;
+        while (k > 5) {
+            System.out.println("k is " + k + " but is less than 15");
+            k--;   
+        }
+        int a = 0;
+        while (a < 10 && b <= 20) {
+            System.out.println("a and b");
+            a++;
+            b++;
+        }
     }
 }
