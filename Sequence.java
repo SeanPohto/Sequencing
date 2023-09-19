@@ -38,6 +38,7 @@ public class Sequence
             k--;   
         }
         int a = 0;
+        int b = 0;
         while (a < 10 && b <= 20) {
             System.out.println("a and b");
             a++;
